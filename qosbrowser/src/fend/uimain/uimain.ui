@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>UiMain</class>
+ <widget class="QWidget" name="UiMain">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>943</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QSplitter" name="splitter">
+     <property name="orientation">
+      <enum>Qt::Horizontal</enum>
+     </property>
+     <property name="handleWidth">
+      <number>2</number>
+     </property>
+     <widget class="UiBucketsListWidget" name="widgetBucketsList" native="true"/>
+     <widget class="QWidget" name="layoutWidget">
+      <layout class="QVBoxLayout" name="verticalLayout" stretch="0">
+       <property name="leftMargin">
+        <number>10</number>
+       </property>
+       <item>
+        <widget class="QStackedWidget" name="stackedWidget">
+         <widget class="UiBucketsTableWidget" name="pageBuckets"/>
+         <widget class="UiObjectsTableWidget" name="pageObjects"/>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>UiBucketsListWidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uimain/uibucketslistwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UiObjectsTableWidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uimain/uiobjectstablewidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>UiBucketsTableWidget</class>
+   <extends>QWidget</extends>
+   <header>src/fend/uimain/uibucketstablewidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
