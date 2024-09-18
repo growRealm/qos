@@ -1,6 +1,6 @@
 {
-"SecretId": "AKIDPhppgSMNc4eVJDFGELXhv9OWfjeUHD93",
-"SecretKey": "BQgBrdYfu7Phu2KXcl3ITYnDjN9BQcvR",
+"SecretId": "", // 改成自己的腾讯云或其它云的SecretId、SecretKey
+"SecretKey": "",
 "Region":"ap-guangzhou",
 "SignExpiredTime":360,
 "ConnectTimeoutInms":6000,
