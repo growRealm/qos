@@ -1,9 +1,8 @@
 ﻿#ifndef UIMAIN_H
 #define UIMAIN_H
 
-#include <src/fend/uicom/uiqosdialog.h>
-
-#include <src/middle/models/cloudmodels.h>
+#include "src/fend/uicom/uiqosdialog.h"
+#include "src/middle/models/cloudmodels.h"
 
 #include <QJsonValue>
 

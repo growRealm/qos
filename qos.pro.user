@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 14.0.1, 2024-09-14T14:16:51. -->
+<!-- Written by QtCreator 14.0.1, 2024-09-18T21:33:16. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -71,9 +71,9 @@
    </valuemap>
    <value type="bool" key="AutoTest.ApplyFilter">false</value>
    <valuemap type="QVariantMap" key="AutoTest.CheckStates">
-    <value type="Qt::CheckState" key="1@E:/_ING_Projs/qos/tests/testcos/tst_testcos.cpp:test_getObjects2_data">Unchecked</value>
-    <value type="Qt::CheckState" key="1@E:/_ING_Projs/qos/tests/testcos/tst_testcos.h:cleanupTestCase">Unchecked</value>
-    <value type="Qt::CheckState" key="1@E:/_ING_Projs/qos/tests/testcos/tst_testcos.h:initTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@E:/_ING_Projs/qos3/qos/tests/testcos/tst_testcos.cpp:test_getObjects2_data">Unchecked</value>
+    <value type="Qt::CheckState" key="1@E:/_ING_Projs/qos3/qos/tests/testcos/tst_testcos.h:cleanupTestCase">Unchecked</value>
+    <value type="Qt::CheckState" key="1@E:/_ING_Projs/qos3/qos/tests/testcos/tst_testcos.h:initTestCase">Unchecked</value>
    </valuemap>
    <valuelist type="QVariantList" key="AutoTest.PathFilters"/>
    <value type="int" key="AutoTest.RunAfterBuild">0</value>
@@ -248,10 +248,10 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/_ING_Projs/qos/qosbrowser/qosbrowser.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/_ING_Projs/qos/qosbrowser/qosbrowser.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">qosbrowser2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/_ING_Projs/qos3/qos/qosbrowser/qosbrowser.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/_ING_Projs/qos3/qos/qosbrowser/qosbrowser.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
@@ -268,10 +268,10 @@
     <valuelist type="QVariantList" key="PE.EnvironmentAspect.Changes"/>
     <value type="bool" key="PE.EnvironmentAspect.PrintOnRun">false</value>
     <value type="QString" key="PerfRecordArgsId">-e cpu-cycles --call-graph &quot;dwarf,4096&quot; -F 250</value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName"></value>
-    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/_ING_Projs/qos/tests/tests.pro</value>
-    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/_ING_Projs/qos/tests/tests.pro</value>
-    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">false</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.DisplayName">tests2</value>
+    <value type="QString" key="ProjectExplorer.ProjectConfiguration.Id">Qt4ProjectManager.Qt4RunConfiguration:E:/_ING_Projs/qos3/qos/tests/tests.pro</value>
+    <value type="QString" key="ProjectExplorer.RunConfiguration.BuildKey">E:/_ING_Projs/qos3/qos/tests/tests.pro</value>
+    <value type="bool" key="ProjectExplorer.RunConfiguration.Customized">true</value>
     <value type="bool" key="RunConfiguration.UseCppDebuggerAuto">true</value>
     <value type="bool" key="RunConfiguration.UseLibrarySearchPath">true</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>

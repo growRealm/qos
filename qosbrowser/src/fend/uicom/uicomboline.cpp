@@ -3,7 +3,7 @@
 #include <QCompleter>
 #include <QListView>
 
-#include <src/fend/uidelegates/uitableitemdelegate.h>
+#include "src/fend/uidelegates/uitableitemdelegate.h"
 
 UiComboLine::UiComboLine(QWidget *parent): QLineEdit(parent)
 {
